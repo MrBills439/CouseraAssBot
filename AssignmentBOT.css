@@ -1,0 +1,54 @@
+/* Custom CSS styles */
+
+body {
+    padding-top: 70px; /* Add padding for the fixed navbar */
+  }
+  
+  .navbar {
+    background-color: #9a70e7; /* Custom background color for the navbar */
+    border-radius: 0; /* Remove border-radius to make navbar corners square */
+  }
+  
+  .navbar-brand {
+    color: #fff; /* Custom color for the company name in the navbar */
+  }
+  
+  .navbar-toggle {
+    border-color: #fff; /* Custom color for the mobile menu button */
+  }
+  
+  .navbar-toggle .icon-bar {
+    background-color: #fff; /* Custom color for the mobile menu button icon bars */
+  }
+  
+  .navbar-toggle:hover,
+  .navbar-toggle:focus {
+    background-color: #333; /* Custom background color on hover and focus for the mobile menu button */
+  }
+  
+  .container-fluid.visible-xs {
+    background-color: #eee; /* Custom background color for the mobile menu dropdown */
+  }
+  
+  .container-fluid.visible-xs ul.navbar-nav {
+    width: 100%; /* Make the mobile menu dropdown take up the entire width */
+  }
+  
+  .container {
+    background-color: #f5f5f5; /* Custom background color for the main content container */
+    padding: 20px; /* Add padding to the main content container */
+  }
+  
+  h1 {
+    margin-top: 40px; /* Add margin to the page heading for spacing */
+  }
+  
+  .row {
+    margin-bottom: 20px; /* Add margin to the row for spacing between sections */
+  }
+  
+  .col-xs-12 {
+    height: 1000px; /* Set the height of the single tall section */
+    background-color: #ccc; /* Custom background color for the single tall section */
+  }
+  
